@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO9UaV6BKlsT75/Mpe7BlpD",
+      "authorship_tag": "ABX9TyOVHrZ/y9uoAcwY0Uomg6JN",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -201,9 +201,86 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "age = 20\n",
+        "\tprint(f\"My age is {age}, type: {type(age)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "7bhrzrW8rTBb",
+        "outputId": "e7bd3d20-d3bf-4c9e-99fc-a511d207de58"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "unexpected indent (2682290275.py, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1991/2682290275.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    print(f\"My age is {age}, type: {type(age)}\")\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unexpected indent\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 20\n",
+        "print(f\"My age is {age}, type: {type(age)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0qGp3T3IxOMR",
+        "outputId": "ca4afc45-dec6-4795-a2ef-22a65bb77210"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My age is 20, type: <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tmarks1 = 85\n",
+        "\tmarks2 = 90\n",
+        "\ttotal = marks1 + marks2\n",
+        "\taverage = total / 2\n",
+        "\tprint(f\"Total: {total}, Average: {average}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7l9RKN_TxQw_",
+        "outputId": "8c677ccd-b3ba-4ced-f7ac-e27ffb5ed563"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: 175, Average: 87.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "7bhrzrW8rTBb"
+        "id": "xreUfpgSxdnz"
       },
       "execution_count": null,
       "outputs": []
