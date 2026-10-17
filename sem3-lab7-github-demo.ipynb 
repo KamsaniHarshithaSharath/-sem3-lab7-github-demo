@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOVHrZ/y9uoAcwY0Uomg6JN",
+      "authorship_tag": "ABX9TyM8/Z6usb8NOoP9nRoXFmFm",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -278,9 +278,33 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "\tis_pass = average >= 40\n",
+        "\tprint(f\"Result: {'Pass' if is_pass else 'Fail'}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xreUfpgSxdnz",
+        "outputId": "1ad88096-8840-4ad7-fe77-b055aa70aa8a"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result: Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "xreUfpgSxdnz"
+        "id": "RCds3xv7x30N"
       },
       "execution_count": null,
       "outputs": []
