@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPiM9AcX5lPQ1wAff5RTGA6",
+      "authorship_tag": "ABX9TyO9UaV6BKlsT75/Mpe7BlpD",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -123,9 +123,87 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "\tmarks1 = 85\n",
+        "\tmarks2 = 90\n",
+        "\ttotal = marks1 + marks2\n",
+        "\taverage = total / 2\n",
+        "\tprint(f\"Total: {total}, Average: {average}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "osc6E1Dlq-T3",
+        "outputId": "38534383-0eeb-481a-cb1e-5639c375f001"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: 175, Average: 87.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tis_pass = average >= 40\n",
+        "\tprint(f\"Result: {'Pass' if is_pass else 'Fail'}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UTy8a33arFNw",
+        "outputId": "687c5a72-8de5-419c-9803-2f9f7137b81d"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result: Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tsubjects = [\"Python\", \"AI Foundations\", \"Version Control\"]\n",
+        "\tfor subject in subjects:\n",
+        "\t    print(f\"Subject: {subject}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YatKPtTMrMtd",
+        "outputId": "30401387-8122-4554-ba1b-f379a8db41a1"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Subject: Python\n",
+            "Subject: AI Foundations\n",
+            "Subject: Version Control\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "osc6E1Dlq-T3"
+        "id": "7bhrzrW8rTBb"
       },
       "execution_count": null,
       "outputs": []
