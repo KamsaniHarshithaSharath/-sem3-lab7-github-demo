@@ -1,0 +1,212 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO9UaV6BKlsT75/Mpe7BlpD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/KamsaniHarshithaSharath/-sem3-lab7-github-demo/blob/main/-sem3-lab7-github-demo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KlXWff8corG0",
+        "outputId": "15d04d79-8027-44a0-d4b2-f74926dc71d3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Connected and ready!\n"
+          ]
+        }
+      ],
+      "source": [
+        "\tprint(\"Connected and ready!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tname = \"Your Name\"\n",
+        "\tprint(f\"Hello, {name}! This is version 2 of my notebook.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xwt8atPYoz6H",
+        "outputId": "0e400a1e-5bac-47c9-b5db-439ca17a4bf8"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Your Name! This is version 2 of my notebook.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tage = 20\n",
+        "\tprint(f\"My age is {age}, type: {type(age)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mZ0iB4gfqlnx",
+        "outputId": "bcf70bb0-2413-46d8-a16d-3f6ef9b75518"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My age is 20, type: <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tcgpa = 8.5\n",
+        "\tprint(f\"My CGPA is {cgpa}, type: {type(cgpa)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "isrz8MMsq1uA",
+        "outputId": "e418e34e-7c9a-41d3-c384-6c5d0d63f892"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My CGPA is 8.5, type: <class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tmarks1 = 85\n",
+        "\tmarks2 = 90\n",
+        "\ttotal = marks1 + marks2\n",
+        "\taverage = total / 2\n",
+        "\tprint(f\"Total: {total}, Average: {average}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "osc6E1Dlq-T3",
+        "outputId": "38534383-0eeb-481a-cb1e-5639c375f001"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: 175, Average: 87.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tis_pass = average >= 40\n",
+        "\tprint(f\"Result: {'Pass' if is_pass else 'Fail'}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UTy8a33arFNw",
+        "outputId": "687c5a72-8de5-419c-9803-2f9f7137b81d"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result: Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\tsubjects = [\"Python\", \"AI Foundations\", \"Version Control\"]\n",
+        "\tfor subject in subjects:\n",
+        "\t    print(f\"Subject: {subject}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YatKPtTMrMtd",
+        "outputId": "30401387-8122-4554-ba1b-f379a8db41a1"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Subject: Python\n",
+            "Subject: AI Foundations\n",
+            "Subject: Version Control\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7bhrzrW8rTBb"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
