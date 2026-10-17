@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM8/Z6usb8NOoP9nRoXFmFm",
+      "authorship_tag": "ABX9TyMLbIUWTfQJj8D1536pYRp3",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -302,9 +302,33 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "\tage = 20\n",
+        "\tprint(f\"My age is {age}, type: {type(age)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RCds3xv7x30N",
+        "outputId": "4d32ea1d-0fc5-431e-9442-cde7b70dea57"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My age is 20, type: <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "RCds3xv7x30N"
+        "id": "CrlTEItTyQKM"
       },
       "execution_count": null,
       "outputs": []
